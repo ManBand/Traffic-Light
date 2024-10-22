@@ -48,16 +48,6 @@
 			path = "Traffic Light";
 			sourceTree = "<group>";
 		};
-		B45F73402CC43DA800FC2FEF /* Traffic LightTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Traffic LightTests";
-			sourceTree = "<group>";
-		};
-		B45F734A2CC43DA800FC2FEF /* Traffic LightUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Traffic LightUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				B45F73292CC43DA700FC2FEF /* Traffic Light */,
-				B45F73402CC43DA800FC2FEF /* Traffic LightTests */,
-				B45F734A2CC43DA800FC2FEF /* Traffic LightUITests */,
 				B45F73282CC43DA700FC2FEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				B45F733F2CC43DA800FC2FEF /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B45F73402CC43DA800FC2FEF /* Traffic LightTests */,
-			);
 			name = "Traffic LightTests";
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				B45F73492CC43DA800FC2FEF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B45F734A2CC43DA800FC2FEF /* Traffic LightUITests */,
 			);
 			name = "Traffic LightUITests";
 			packageProductDependencies = (
